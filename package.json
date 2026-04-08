@@ -2,14 +2,10 @@
   "name": "clean-case-backend",
   "version": "1.0.0",
   "description": "Backend API for Clean Case mystery box platform",
-  "main": "dist/server.js",
-  "scripts": {
-    "dev": "nodemon",
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "lint": "eslint . --ext .ts",
-    "test": "jest"
-  },
+ "main": "server.js"
+"scripts": {
+  "start": "node server.js"
+}
   "keywords": [
     "mystery-box",
     "crypto",
